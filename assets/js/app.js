@@ -1,11 +1,9 @@
-$(".slider").slick({
-    dots: false,
+$(".parent-slider").slick({
+    dots: true,
     infinite: true,
     speed: 300,
     autoplay: true,
-    prevArrow: ".prev",
-    nextArrow: ".next",
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
         {
