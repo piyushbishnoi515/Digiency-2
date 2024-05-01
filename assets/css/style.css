@@ -282,6 +282,10 @@
     color: var(--color-orange);
 }
 
+.pl-25 {
+    padding-left: 25px;
+}
+
 .child-slider {
     box-shadow: 0px 1px 10px 0px var(--color-black);
     background-color: var(--color-orange);
@@ -298,12 +302,14 @@
     color: var(--color-white);
 
 }
-.lorrm{
+
+.lorrm {
     font-family: "Work Sans", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24.1px;
-        color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-white);
+    max-width: 370px;
 }
 
 .slider-imges {
