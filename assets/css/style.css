@@ -82,7 +82,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 24.72px;
-    color: var(#373737);
+    color: var(--color-black);
     cursor: pointer;
 }
 
@@ -115,8 +115,40 @@
     color: var(--color-7B7B7B);
 }
 
+.bg-greey {
+    background-color: var(--color-black);
+}
+
 .width {
     max-width: 446px;
+}
+
+.heading {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-6xl);
+    font-weight: 600;
+    line-height: 48.28px;
+    color: var(--color-white);
+}
+
+.links-f {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-white);
+}
+
+.white {
+    color: var(--color-white);
+}
+
+.lorem-footer {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-white);
 }
 
 .pt-24 {
@@ -323,6 +355,62 @@
     line-height: 38.62px;
     color: var(--color-black);
     padding-top: 8px;
+}
+
+.border-form {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    width: 330px;
+    height: 60px;
+    padding: 18px;
+    width: 100%;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.mb-120 {
+    margin-bottom: 120px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.name-11 {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-7B7B7B);
+    outline: none;
+    border: none;
+    /* width: 670px; */
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    height: 163px;
+    padding-right: 5px;
+    resize: none;
+    margin-top: 24px;
+    padding: 20px;
+
+}
+
+.name-1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-7B7B7B);
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-right: 5px;
+    resize: none;
 }
 
 .toll {
