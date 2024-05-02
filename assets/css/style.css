@@ -285,11 +285,16 @@
 .ml-90 {
     margin-left: 90px;
 }
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
 
 .child-slider-2 {
     box-shadow: 0px 1px 10px 0px #0000001A;
-    width: 570px;
-    height: 294px;
+    /* padding: 20px; */
 }
 
 .graphic-d {
@@ -307,6 +312,11 @@
     line-height: 24.72px;
     text-align: center;
     color: var(--color-black);
+    margin-right: auto !important;
+}
+
+.pl-10 {
+    padding-left: 10px;
 }
 
 .read {
