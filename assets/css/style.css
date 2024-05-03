@@ -158,8 +158,35 @@
     line-height: 24.1px;
     color: var(--color-white);
 }
-.f-form{
+
+.orange-footer {
+    width: 1440px;
+    height: 60px;
+    background-color: var(--color-orange);
+}
+
+.copy-right {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-white);
+}
+
+.f-form {
     border: 2px solid var(--color-orange);
+    outline: none;
+    padding: 10px;
+    background-color: var(--color-black);
+    color: var(--color-7B7B7B);
+}
+
+.f-btn {
+    width: 81px;
+    height: 60px;
+    background-color: var(--color-orange);
+    border: none;
+    outline: none;
 }
 
 .pt-24 {
@@ -174,7 +201,7 @@
     right: -100%;
     align-items: center;
     flex-direction: column;
-    top: 10%;
+    top: 20%;
 }
 
 .profection {
@@ -199,6 +226,10 @@
     overflow: hidden;
 }
 
+.c-pointer {
+    cursor: pointer;
+}
+
 .lorem {
     font-family: "Work Sans", sans-serif;
     font-size: var(--fs-2xl);
@@ -214,6 +245,10 @@
     font-weight: 700;
     line-height: 59.33px;
     color: var(--color-black);
+}
+
+.bg-orange {
+    background-color: var(--color-orange);
 }
 
 .mt-8 {
@@ -243,6 +278,10 @@
 
 .mt-120 {
     margin-top: 120px;
+}
+
+.w-fit {
+    width: fit-content;
 }
 
 .latest {
@@ -597,6 +636,7 @@ input[type=number]::-webkit-outer-spin-button {
 .hover1 {
     right: -100%;
     transition: all 0.4s;
+ 
 }
 
 .sec-1:hover .hover1 {
@@ -629,6 +669,8 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     align-items: center;
     transition: all 0.3s;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+  
 
 }
 
@@ -642,6 +684,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .apps-div:hover {
     background-color: var(--color-orange);
+    box-shadow: 4px 5px 15px 0px #FF530066;
 }
 
 
