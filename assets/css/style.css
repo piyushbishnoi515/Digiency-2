@@ -123,6 +123,14 @@
     max-width: 446px;
 }
 
+.lorem-f {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-white);
+}
+
 .heading {
     font-family: "Work Sans", sans-serif;
     font-size: var(--fs-6xl);
@@ -149,6 +157,9 @@
     font-weight: 400;
     line-height: 24.1px;
     color: var(--color-white);
+}
+.f-form{
+    border: 2px solid var(--color-orange);
 }
 
 .pt-24 {
