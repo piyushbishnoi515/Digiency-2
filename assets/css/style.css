@@ -39,6 +39,7 @@
 
     /* line height */
     --lh-sm: 38px;
+    --lh-md: 30px;
     /* --lh-sm: 38px */
 
 }
@@ -610,6 +611,9 @@ input[type=number]::-webkit-outer-spin-button {
     top: 25px;
     left: -40px;
 }
+.h-79{
+    height: 79%;
+}
 
 .slider-name {
     font-family: "Work Sans", sans-serif;
@@ -626,7 +630,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: "Work Sans", sans-serif;
     font-size: var(--fs-8xl);
     font-weight: 700;
-    line-height: 58px;
+    line-height: var(--lh-md);
     padding-bottom: 50px;
 
 }
@@ -744,6 +748,11 @@ slick-dots li button {
     transition: all 0.4s linear;
 }
 
+.w-1320 {
+    width: 1320px;
+}
+
+
 
 .about {
     font-family: "Work Sans", sans-serif;
@@ -756,7 +765,6 @@ slick-dots li button {
 
 .outer {
     box-shadow: 0px 1px 10px 0px #0000001A;
-    width: 270px;
     height: 200px;
 }
 
@@ -902,6 +910,7 @@ slick-dots li button {
         --fs-8xl: 39px;
         /*  */
         --lh-sm: 40px;
+        --lh-md: 38px;
     }
 
     .gap-md-67 {
@@ -1013,8 +1022,11 @@ slick-dots li button {
         --fs-8xl: 48px;
         /*  */
         --lh-sm: 60px;
+        --lh-md: 48px;
     }
 
 
-
+    .mt-lg-120 {
+        margin-top: 120px;
+    }
 }
