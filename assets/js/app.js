@@ -1,3 +1,9 @@
+function openNav() {
+    document.getElementById("navbar").classList.toggle("start-0");
+    document.body.classList.toggle("overflow_hidden");
+    document.querySelector(".menu_1").classList.toggle("cross")
+}
+
 $(".parent-slider").slick({
     dots: true,
     infinite: true,
@@ -52,3 +58,5 @@ $(".parent-slider-2").slick({
         }
     ]
 });
+
+

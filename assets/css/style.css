@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
 * {
     padding: 0%;
     margin: 0%;
@@ -50,7 +51,18 @@
     top: 0%;
     right: 0%;
     z-index: 10;
+    position: fixed;
+    width: 100%;
 }
+.menulist2:hover::after {
+    left: -50%;
+    width: 100%;
+}
+.menulist2:hover {
+    color: #FF5300;
+
+}
+
 
 .color-orange {
     color: var(--color-orange);
@@ -79,7 +91,7 @@
 
 .black {
     font-family: "Work Sans", sans-serif;
-    font-size: 20px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
     line-height: 24.72px;
     color: var(--color-black);
@@ -197,7 +209,18 @@
     right: 0%;
 }
 
+.bordeer:hover .apps-1 {
+    right: 0%;
+}
+
 .apps {
+    right: -100%;
+    align-items: center;
+    flex-direction: column;
+    top: 10%;
+}
+
+.apps-1 {
     right: -100%;
     align-items: center;
     flex-direction: column;
@@ -636,7 +659,7 @@ input[type=number]::-webkit-outer-spin-button {
 .hover1 {
     right: -100%;
     transition: all 0.4s;
- 
+
 }
 
 .sec-1:hover .hover1 {
@@ -670,7 +693,7 @@ input[type=number]::-webkit-outer-spin-button {
     align-items: center;
     transition: all 0.3s;
     box-shadow: 0px 1px 10px 0px #0000001A;
-  
+
 
 }
 
@@ -682,9 +705,37 @@ input[type=number]::-webkit-outer-spin-button {
     fill: var(--color-white);
 }
 
+
+
 .apps-div:hover {
     background-color: var(--color-orange);
     box-shadow: 4px 5px 15px 0px #FF530066;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0;
+}
+
+.slick-dots li.slick-active {
+    background-color: var(--color-black);
+    width: 49px;
+    height: 15px;
+    border-radius: 7.5px;
+    z-index: 5;
+    position: relative;
+    opacity: 100;
+}
+
+.slick-dots li button::before,
+.slick-dots li,
+slick-dots li button {
+    width: 15px;
+    height: 15px;
+    background-color: var(--color-orange);
+    opacity: 100%;
+    border-radius: 50px;
+    font-size: 0;
+    transition: all 0.4s linear;
 }
 
 
@@ -764,10 +815,153 @@ input[type=number]::-webkit-outer-spin-button {
     margin-bottom: 36px;
 }
 
+.nav-icon {
+    position: fixed;
+    right: 5%;
+}
+
 
 .contact-btn:hover {
     background-color: var(--color-white);
     color: var(--color-orange);
     border: 2px solid var(--color-orange);
     box-shadow: 0 0 10px var(--color-7B7B7B);
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.menulist2::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -3px;
+    left: 50%;
+    background-color: #FF5300;
+    transform: translate(50%);
+    transition: all 0.3s;
+}
+.three-line {
+    height: 2px;
+    width: 32px;
+    background-color: black;
+    flex-direction: row;
+}
+.white{
+    color: white !important;
+}
+ .max-w-1180{
+    max-width: 1180px;
+ }
+ .black_1{
+    color: black !important;
+ }
+ .py-26{
+    padding-top: 26px;
+    padding-bottom: 26px;
+ }
+ .gap-215{
+    gap: 215px;
+ }
+
+@media (min-width:768px) {
+    :root {
+        /* font-size / */
+        --fs-9: 9px;
+        --fs-10: 10px;
+        --fs-11: 11px;
+        --fs-sm: 12px;
+        --fs-base: 14px;
+        --fs-15: 15px;
+        --fs-lg: 16px;
+        --fs-xl: 18px;
+        --fs-2xl: 20px;
+        --fs-3xl: 22px;
+        --fs-4xl: 25px;
+        --fs-5xl: 32px;
+        --fs-6xl: 38px;
+        --fs-7xl: 44px;
+        --fs-8xl: 48px;
+    }
+
+}
+ 
+@media (max-width: 767.9px) {
+    .mobile_view {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 400ms linear;
+        backdrop-filter: blur(90px);
+        z-index: 4;
+    }
+
+    .menu_1 {
+        z-index: 50;
+    }
+
+    .overflow_hidden {
+        overflow: hidden;
+    }
+
+    .menu_1 span:nth-child(1) {
+        height: 4px;
+        width: 35px;
+background-color: var(--color-orange);
+        display: block;
+        border-radius: 30px;
+    }
+
+    .menu_1 span:nth-child(2) {
+        height: 4px;
+        width: 35px;
+background-color: var(--color-orange);
+        display: block;
+        border-radius: 30px;
+    }
+
+    .menu_1 span:nth-child(3) {
+        height: 4px;
+        width: 35px;
+background-color: var(--color-orange);
+        display: block;
+        border-radius: 30px;
+    }
+
+    .menu_1 span {
+        transition: all 400ms linear;
+    }
+
+    .cross span:nth-child(1) {
+        transform: rotate(42deg) translateY(16px);
+        transition: 300ms linear;
+        background-color: var(--color-zblack);
+    }
+
+    .cross span:nth-child(2) {
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: 10ms linear;
+    }
+
+    .cross span:nth-child(3) {
+        transform: rotate(-43deg) translateY(-15px);
+        transition: 300ms linear;
+        background-color: var(--color-zblack);
+    }
+
+    .right {
+        left: 0;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
 }
