@@ -743,6 +743,9 @@ input[type=number]::-webkit-outer-spin-button {
 .apps-div:hover svg path {
     fill: var(--color-white);
 }
+.max-w-1320{
+    max-width: 1320px;
+}
 
 
 
