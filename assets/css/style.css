@@ -750,6 +750,17 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: var(--color-orange);
     box-shadow: 4px 5px 15px 0px #FF530066;
 }
+.slick-dots {
+    position: absolute;
+    bottom: -50px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    padding-top: 6px;
+}
 
 .slick-dots li.slick-active button:before {
     opacity: 0;
